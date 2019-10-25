@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb://twitterclone:twitterclone1@ds161505.mlab.com:61505/twitter-clone', {
+mongoose.connect('mongodb://localhost:27017/twitterclone', {
     useNewUrlParser: true
 })
 

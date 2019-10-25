@@ -16,6 +16,6 @@ server.applyMiddleware({app})
 
 app.listen(port, () =>
   console.log(
-    `🚀 Server ready at http://localhost:${port}${server.graphqlPath}`
+    `Server ready at http://localhost:${port}${server.graphqlPath}`
   )
 )
